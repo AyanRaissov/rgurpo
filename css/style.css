@@ -1130,11 +1130,11 @@ a:hover  {
 
     /* Features */
 
-    .modal_f_section_01 {
+    /* .modal_f_section_01 {
         max-width: 800px;      
         background: #002060;
         border-radius: 20px;
-    }
+    } */
 
     .modal_f_img {
         width: 800px;
@@ -1201,8 +1201,7 @@ a:hover  {
 
     /* Intro */
     .layers {
-        /* height: auto; */
-        width: 200;
+        height: auto;    
         padding-top: 130px;
         padding-bottom: 10px;
     }
@@ -1222,11 +1221,11 @@ a:hover  {
 
     /* Features */
 
-    .modal_f_section_01 {
+    /* .modal_f_section_01 {
         max-width: 400px;      
         background: #002060;
         border-radius: 20px;
-    }
+    } */
 
     .modal_f_img {
         width: 400px;
