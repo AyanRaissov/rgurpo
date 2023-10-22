@@ -365,3 +365,121 @@ clsModal_01.addEventListener('click', ()=>{
             modalWindow_15.style.display = 'none'
         }, 300)
     })
+
+
+    // ------------------------ modal features ---------------------
+
+    const openModal_f_01 = document.querySelector('.features_btn_1')
+    const clsModal_f_01 = document.querySelector('.cls_f_modal_01')
+    const modalWindow_f_01 = document.querySelector('.modal_features_01')
+    
+    openModal_f_01.addEventListener('click', ()=>{
+      modalWindow_f_01.style.display = 'flex'
+      setTimeout(()=>{
+          modalWindow_f_01.style.opacity = 1
+      }, 300)
+      window.onclick = function(event) {
+        if (event.target == modalWindow_f_01) {
+            modalWindow_f_01.style.display = "none";
+        }
+      }
+  })
+    
+    clsModal_f_01.addEventListener('click', ()=>{
+        modalWindow_f_01.style.opacity = 0
+        setTimeout(()=>{
+            modalWindow_f_01.style.display = 'none'
+        }, 300)
+    })
+
+    const openModal_f_02 = document.querySelector('.features_btn_2')
+    const clsModal_f_02 = document.querySelector('.cls_f_modal_02')
+    const modalWindow_f_02 = document.querySelector('.modal_features_02')
+    
+    openModal_f_02.addEventListener('click', ()=>{
+      modalWindow_f_02.style.display = 'flex'
+      setTimeout(()=>{
+          modalWindow_f_02.style.opacity = 1
+      }, 300)
+      window.onclick = function(event) {
+        if (event.target == modalWindow_f_02) {
+            modalWindow_f_02.style.display = "none";
+        }
+      }
+  })
+    
+    clsModal_f_02.addEventListener('click', ()=>{
+        modalWindow_f_02.style.opacity = 0
+        setTimeout(()=>{
+            modalWindow_f_02.style.display = 'none'
+        }, 300)
+    })
+
+    const openModal_f_03 = document.querySelector('.features_btn_3')
+    const clsModal_f_03 = document.querySelector('.cls_f_modal_03')
+    const modalWindow_f_03 = document.querySelector('.modal_features_03')
+    
+    openModal_f_03.addEventListener('click', ()=>{
+      modalWindow_f_03.style.display = 'flex'
+      setTimeout(()=>{
+          modalWindow_f_03.style.opacity = 1
+      }, 300)
+      window.onclick = function(event) {
+        if (event.target == modalWindow_f_03) {
+            modalWindow_f_03.style.display = "none";
+        }
+      }
+  })
+    
+    clsModal_f_03.addEventListener('click', ()=>{
+        modalWindow_f_03.style.opacity = 0
+        setTimeout(()=>{
+            modalWindow_f_03.style.display = 'none'
+        }, 300)
+    })
+
+    const openModal_f_04 = document.querySelector('.features_btn_4')
+    const clsModal_f_04 = document.querySelector('.cls_f_modal_04')
+    const modalWindow_f_04 = document.querySelector('.modal_features_04')
+    
+    openModal_f_04.addEventListener('click', ()=>{
+      modalWindow_f_04.style.display = 'flex'
+      setTimeout(()=>{
+          modalWindow_f_04.style.opacity = 1
+      }, 300)
+      window.onclick = function(event) {
+        if (event.target == modalWindow_f_04) {
+            modalWindow_f_04.style.display = "none";
+        }
+      }
+  })
+    
+    clsModal_f_04.addEventListener('click', ()=>{
+        modalWindow_f_04.style.opacity = 0
+        setTimeout(()=>{
+            modalWindow_f_04.style.display = 'none'
+        }, 300)
+    })
+
+    const openModal_f_05 = document.querySelector('.features_btn_5')
+    const clsModal_f_05 = document.querySelector('.cls_f_modal_05')
+    const modalWindow_f_05 = document.querySelector('.modal_features_05')
+    
+    openModal_f_05.addEventListener('click', ()=>{
+      modalWindow_f_05.style.display = 'flex'
+      setTimeout(()=>{
+          modalWindow_f_05.style.opacity = 1
+      }, 300)
+      window.onclick = function(event) {
+        if (event.target == modalWindow_f_05) {
+            modalWindow_f_05.style.display = "none";
+        }
+      }
+  })
+    
+    clsModal_f_05.addEventListener('click', ()=>{
+        modalWindow_f_05.style.opacity = 0
+        setTimeout(()=>{
+            modalWindow_f_05.style.display = 'none'
+        }, 300)
+    })

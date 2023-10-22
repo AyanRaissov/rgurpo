@@ -108,8 +108,18 @@ document.addEventListener('mousemove', e => {
 		`
 	})
 })
+
+
+document.addEventListener('touchstart', e => {
+	Object.assign(document.documentElement, {
+		style: `
+		--touch-x: ${(e.clientX - window.innerWidth / 2) * -.005}deg;
+		--touch-y: ${(e.clientY - window.innerHeight / 2) * .01}deg;
+		`
+	})
+})
  
- 
+// ---------------------- yandex maps ---------------------------
 
 ymaps.ready(function () {
     var myMap = new ymaps.Map("YMapsID", {
